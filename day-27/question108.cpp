@@ -1,0 +1,50 @@
+#include<bits/stdc++.h> 
+using namespace std;
+int main() {
+    struct Marksheet {
+    char Name[15];
+    int Roll;
+    int SS;
+    int Physics;
+    int Chemistry;
+    int Math;
+    int PPS;
+    int Total;
+    float Percentage;
+    };
+    struct Marksheet s1;
+    strcpy(s1.Name,"Satyam");
+    s1.Roll=40;
+    s1.SS=90;
+    s1.Physics=96; 
+    s1.Chemistry=92;
+    s1.Math=98;
+    s1.PPS=94;
+    s1.Total=470;
+    s1.Percentage=94;
+    struct Marksheet s2;
+    strcpy(s2.Name,"Prince");
+    s2.Roll=41;
+    s2.SS=93;
+    s2.Physics=98; 
+    s2.Chemistry=93;
+    s2.Math=100;
+    s2.PPS=97;
+    s2.Total=481;
+    s2.Percentage=96.2;
+    struct Marksheet s3;
+    strcpy(s3.Name,"Rohan");
+    s3.Roll=42;
+    s3.SS=93;
+    s3.Physics=92; 
+    s3.Chemistry=85;
+    s3.Math=91;
+    s3.PPS=94;
+    s3.Total=455;
+    s3.Percentage=91;
+    cout << "Name"<<" "<<"Roll"<<" "<<"SS"<<" "<<"Physics"<<" "<<"Chemistry"<<" "<<"Math"<<" "<<"PPS"<<" "<<"Total"<<" "<<"Percentage"<<"\n";
+    cout << s1.Name<<" "<<s1.Roll<<" "<<s1.SS<<" "<<s1.Physics<<" "<<s1.Chemistry<<" "<<s1.Math<<" "<<s1.PPS<<" "<<s1.Total<<" "<<s1.Percentage<<"\n";
+    cout << s2.Name<<" "<<s2.Roll<<" "<<s2.SS<<" "<<s2.Physics<<" "<<s2.Chemistry<<" "<<s2.Math<<" "<<s2.PPS<<" "<<s2.Total<<" "<<s2.Percentage<<"\n";
+    cout << s3.Name<<" "<<s3.Roll<<" "<<s3.SS<<" "<<s3.Physics<<" "<<s3.Chemistry<<" "<<s3.Math<<" "<<s3.PPS<<" "<<s3.Total<<" "<<s3.Percentage<<"\n";
+    return 0;
+}
